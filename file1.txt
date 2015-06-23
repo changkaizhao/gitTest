@@ -1,3 +1,0 @@
-This is my first file test for git`
-
-add something on branch new ,dev branch

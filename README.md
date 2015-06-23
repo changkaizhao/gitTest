@@ -1,12 +1,4 @@
-gitTest
-=======
-on master
-
-
-on branch dev
-Author
+INFO
 ======
-Changkaizhao
+这个例子中摄像头是openCV提供的借口。并没有自己直接调iOS的接口.
 
-hello 
-test Git stuff
