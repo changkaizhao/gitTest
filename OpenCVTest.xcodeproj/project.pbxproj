@@ -31,6 +31,7 @@
 		FBC4F88D199E022C00BCC2E5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC4F886199E022C00BCC2E5 /* CoreMedia.framework */; };
 		FBC4F88E199E022C00BCC2E5 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC4F887199E022C00BCC2E5 /* CoreVideo.framework */; };
 		FBC4F88F199E022C00BCC2E5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC4F888199E022C00BCC2E5 /* QuartzCore.framework */; };
+		FBE1784F1B38EFCE000297D9 /* newfiles.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE1784E1B38EFCE000297D9 /* newfiles.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,8 @@
 		FBC4F886199E022C00BCC2E5 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		FBC4F887199E022C00BCC2E5 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		FBC4F888199E022C00BCC2E5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FBE1784D1B38EFCE000297D9 /* newfiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newfiles.h; sourceTree = "<group>"; };
+		FBE1784E1B38EFCE000297D9 /* newfiles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newfiles.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +170,8 @@
 				FBC4F87E199DFF9400BCC2E5 /* CVTRootViewController.mm */,
 				FB55E0191A9FFC4500023B04 /* MatchPair.h */,
 				FB55E01A1AA00B0500023B04 /* README.txt */,
+				FBE1784D1B38EFCE000297D9 /* newfiles.h */,
+				FBE1784E1B38EFCE000297D9 /* newfiles.m */,
 			);
 			path = OpenCVTest;
 			sourceTree = "<group>";
@@ -304,6 +309,7 @@
 			files = (
 				FBC4F87F199DFF9400BCC2E5 /* CVTRootViewController.mm in Sources */,
 				FBC4F85F199DFF7A00BCC2E5 /* CVTAppDelegate.m in Sources */,
+				FBE1784F1B38EFCE000297D9 /* newfiles.m in Sources */,
 				FBC4F85B199DFF7A00BCC2E5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
